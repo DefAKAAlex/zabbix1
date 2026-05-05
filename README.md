@@ -14,10 +14,13 @@
 Выполните все необходимые команды для установки Zabbix Server и Zabbix Web Server.
 ```
 
-![zabbix1]()
-![zabbix2]()
-![zabbix3]()
-![zabbix4]()
+![zabbix1](https://github.com/DefAKAAlex/zabbix1/blob/main/zabbix1.png)
+
+![zabbix2](https://github.com/DefAKAAlex/zabbix1/blob/main/zabbix2.png)
+
+![zabbix3](https://github.com/DefAKAAlex/zabbix1/blob/main/zabbix3.png)
+
+![zabbix4](https://github.com/DefAKAAlex/zabbix1/blob/main/zabbix4.png)
 
 
 ## Задание 2
@@ -31,6 +34,10 @@
 Проверьте, что в разделе Latest Data начали появляться данные с добавленных агентов.
 ```
 
-![zabbix1]()
-![zabbix2]()
-![zabbix3]()
+![zabbix1](https://github.com/DefAKAAlex/zabbix1/blob/main/zabbix2-1.png)
+
+![zabbix2](https://github.com/DefAKAAlex/zabbix1/blob/main/zabbix2-2.png)
+
+![zabbix3](https://github.com/DefAKAAlex/zabbix1/blob/main/zabbix2-3.png)
+
+![zabbix4](https://github.com/DefAKAAlex/zabbix1/blob/main/zabbix2-4.png)
