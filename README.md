@@ -22,7 +22,7 @@ root@zabbix1:~# apt install postgresql
 ```
 Дальше используем подсказки, которые нам даёт сайт https://www.zabbix.com/
 
-![PrefServ](https://github.com/DefAKAAlex/zabbix1/img/blob/main/pref_srv.png)
+![PrefServ](https://github.com/DefAKAAlex/zabbix1/blob/main/img/pref_srv.png)
 
 2) Устанавливаем репозиторий Zabbix
 ```
@@ -55,20 +55,20 @@ root@zabbix1:~# sudo nano /etc/zabbix/zabbix_server.conf
 root@zabbix1:~# root@zabbix1:~# systemctl restart zabbix-server zabbix-agent apache2
 root@zabbix1:~# systemctl enable zabbix-server zabbix-agent apache2
 ```
-![zabbix1](https://github.com/DefAKAAlex/zabbix1/img/blob/main/install-end.png)
+![zabbix1](https://github.com/DefAKAAlex/zabbix1/blob/main/img/install-end.png)
 
 
 Получаем установленный и настроенный Zabbix сервер на ВМ Zabbix1, на этой же ВМ установлен агент.
 
 Заходим в веб-интерфейс сервера Zabbix
 
-![zabbix1](https://github.com/DefAKAAlex/zabbix1/img/blob/main/zabbix1.png)
+![zabbix1](https://github.com/DefAKAAlex/zabbix1/blob/main/img/zabbix1.png)
 
-![zabbix2](https://github.com/DefAKAAlex/zabbix1/img/blob/main/zabbix2.png)
+![zabbix2](https://github.com/DefAKAAlex/zabbix1/blob/main/img/zabbix2.png)
 
-![zabbix3](https://github.com/DefAKAAlex/zabbix1/img/blob/main/zabbix3.png)
+![zabbix3](https://github.com/DefAKAAlex/zabbix1/blob/main/img/zabbix3.png)
 
-![zabbix4](https://github.com/DefAKAAlex/zabbix1/img/blob/main/zabbix4.png)
+![zabbix4](https://github.com/DefAKAAlex/zabbix1/blob/main/img/zabbix4.png)
 
 
 ## Задание 2
@@ -85,7 +85,7 @@ root@zabbix1:~# systemctl enable zabbix-server zabbix-agent apache2
 В первой части задания, одновременно с сервером, на ВМ Zabbix1 был установлен zabbix агент.
 На ВМ Zabbix2 устанавливаем только агента, так же с подсказкой сайта https://www.zabbix.com/
 
-![PrefAgent](https://github.com/DefAKAAlex/zabbix1/img/blob/main/pref_agnt.png)
+![PrefAgent](https://github.com/DefAKAAlex/zabbix1/blob/main/img/pref_agnt.png)
 
 1) Устанавливаем репозиторий Zabbix
 ```
@@ -101,10 +101,10 @@ root@zabbix2:~# root@zabbix1:~# apt install zabbix-agent
 Агенты установлены.
 Подключаем их к серверу.
 
-![zabbix1](https://github.com/DefAKAAlex/zabbix1/img/blob/main/zabbix2-1.png)
+![zabbix1](https://github.com/DefAKAAlex/zabbix1/blob/main/img/zabbix2-1.png)
 
-![zabbix2](https://github.com/DefAKAAlex/zabbix1/img/blob/main/zabbix2-2.png)
+![zabbix2](https://github.com/DefAKAAlex/zabbix1/blob/main/img/zabbix2-2.png)
 
-![zabbix3](https://github.com/DefAKAAlex/zabbix1/img/blob/main/zabbix2-3.png)
+![zabbix3](https://github.com/DefAKAAlex/zabbix1/blob/main/img/zabbix2-3.png)
 
-![zabbix4](https://github.com/DefAKAAlex/zabbix1/img/blob/main/zabbix2-4.png)
+![zabbix4](https://github.com/DefAKAAlex/zabbix1/blob/main/img/zabbix2-4.png)
